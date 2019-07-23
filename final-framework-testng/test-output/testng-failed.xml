@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.RTTC_42_Admin_AddProduct">
+      <class name="com.training.sanity.tests.RTTC_070_UserAdd_AdminChangeStatus">
         <methods>
-          <include name="tearDown"/>
-          <include name="adminAddProduct"/>
           <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="removeItemTest"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.RTTC_42_Admin_AddProduct -->
+      </class> <!-- com.training.sanity.tests.RTTC_070_UserAdd_AdminChangeStatus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
